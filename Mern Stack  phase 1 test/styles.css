@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform</title>
+    <!-- Link to Google Fonts for script font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS for the online learning platform */
+        body {
+            margin: 0;
+            font-family: 'Dancing Script', cursive; /* Script-style font */
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        header nav a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #6a0dad;
+            color: #ffffff;
+            border-radius: 8px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .course-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .course-card {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .course-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .course-card .content {
+            padding: 15px;
+        }
+
+        .course-card .content h3 {
+            font-size: 20px;
+            margin: 0 0 10px;
+        }
+
+        .course-card .content p {
+            font-size: 14px;
+            margin: 0 0 15px;
+            color: #555;
+        }
+
+        .subscription-plans {
+            background-color: #f9f9f9;
+            padding: 2em;
+            text-align: center;
+        }
+
+        .subscription-plans h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+
+        .plan-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5em;
+        }
+
+        .plan {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            padding: 1.5em;
+            text-align: left;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .plan h3 {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+            color: #333;
+        }
+
+        .plan p {
+            margin: 0.5em 0;
+        }
+
+        .plan button {
+            background-color: #e600ff;
+            color: #fff;
+            border: none;
+            padding: 0.5em 1em;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 1em;
+        }
+
+        .plan button:hover {
+            background-color: #e600ff;
+        }
+
+        .plan ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 1em;
+        }
+
+        .plan ul li {
+            margin-bottom: 0.5em;
+            font-size: 0.9em;
+            color: #555;
+        }
+        font-family: 'Dancing Script', cursive;
+
+    </style>
